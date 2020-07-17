@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: result-app-deployment
   labels:
-    name: result-app-pod
     app: demo-result-app
 spec:
   replicas: 3
